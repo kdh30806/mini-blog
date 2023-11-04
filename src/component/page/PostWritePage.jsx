@@ -41,7 +41,7 @@ function PostWritePage(props) {
     const savePost = () => {
         fetch('/post', {
             method: 'POST',
-            headers: {
+            headers: {//test
                 'Content-Type': 'application/json', // 데이터 형식 지정
             },
             body: JSON.stringify(post)
